@@ -22,7 +22,7 @@ export function HelloWave() {
   }));
 
   return (
-    <Animated.View style={animatedStyle}>
+    <Animated.View style={animatedStyle} testID="HelloWaveMock">
       <ThemedText style={styles.text}>👋</ThemedText>
     </Animated.View>
   );
